@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trackRide"
+            android:icon="@drawable/color_car1"
+            android:title="Track Ride" />
+        <item
+            android:id="@+id/roasterView"
+            android:icon="@drawable/roaster"
+            android:title="View Roaster" />
+        <item
+            android:id="@+id/adhocCab"
+            android:icon="@drawable/adhoc"
+            android:title="Adhoc Cab" />
+        <item
+            android:id="@+id/cancelCab"
+            android:icon="@drawable/cancel"
+            android:title="Request Cancellation" />
+        <item
+            android:id="@+id/addressUpdation"
+            android:icon="@drawable/address"
+            android:title="Address Update" />
+        <item
+            android:id="@+id/contactTransport"
+            android:icon="@drawable/contact_transport"
+            android:title="Call Transport Team" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/settingFromNav"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
